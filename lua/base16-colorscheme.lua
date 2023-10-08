@@ -34,7 +34,7 @@ local HEX_DIGITS = {
 
 local function hex_to_rgb(hex)
     return HEX_DIGITS[string.sub(hex, 1, 1)] * 16 + HEX_DIGITS[string.sub(hex, 2, 2)],
-        HEX_DIGITS[string.sub(hex, 3, 3)] * 16 + HEX_DIGITS[string.sub(hex, 4, 4)],
+        HEX_DIGITS[string.sub(hex, 3, 3)] * 16 + HEX_DIGITS[st/ring.sub(hex, 4, 4)],
         HEX_DIGITS[string.sub(hex, 5, 5)] * 16 + HEX_DIGITS[string.sub(hex, 6, 6)]
 end
 
@@ -172,7 +172,7 @@ function M.setup(colors, config)
     hi.LineNr                             = { guifg = M.colors.base04, guibg = M.colors.base00, gui = nil, guisp = nil }
     hi.SignColumn                         = { guifg = M.colors.base04, guibg = M.colors.base00, gui = nil, guisp = nil }
     hi.StatusLine                         = { guifg = M.colors.base04, guibg = M.colors.base01, gui = 'none', guisp = nil }
-    hi.StatusLineNC                       = { guifg = M.colors.base04, guibg = M.colors.base01, gui = 'none', guisp = nil }
+    hi.StatusLineNC                       = { guifg = M.colors.base03, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.WinBar                             = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil }
     hi.WinBarNC                           = { guifg = M.colors.base04, guibg = nil, gui = 'none', guisp = nil }
     hi.VertSplit                          = { guifg = M.colors.base01, guibg = M.colors.base01, gui = 'none', guisp = nil }
