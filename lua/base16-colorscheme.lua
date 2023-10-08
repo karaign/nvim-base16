@@ -261,10 +261,10 @@ function M.setup(colors, config)
     hi.DiagnosticInfo                     = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil }
     hi.DiagnosticHint                     = { guifg = M.colors.base0C, guibg = nil, gui = 'none', guisp = nil }
     hi.DiagnosticUnderlineError           = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base08 }
-    hi.DiagnosticUnderlineWarning         = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0E }
-    hi.DiagnosticUnderlineWarn            = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0E }
-    hi.DiagnosticUnderlineInformation     = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0F }
-    hi.DiagnosticUnderlineHint            = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0C }
+    hi.DiagnosticUnderlineWarning         = { guifg = nil, guibg = nil, gui = 'underdashed', guisp = M.colors.base0E }
+    hi.DiagnosticUnderlineWarn            = { guifg = nil, guibg = nil, gui = 'underdashed', guisp = M.colors.base0E }
+    hi.DiagnosticUnderlineInformation     = { guifg = nil, guibg = nil, gui = 'underdotted', guisp = M.colors.base0F }
+    hi.DiagnosticUnderlineHint            = { guifg = nil, guibg = nil, gui = 'underdotted', guisp = M.colors.base0C }
 
     hi.LspReferenceText                   = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04 }
     hi.LspReferenceRead                   = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04 }
