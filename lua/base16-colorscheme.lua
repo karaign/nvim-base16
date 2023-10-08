@@ -186,6 +186,7 @@ function M.setup(colors, config)
     hi.TabLine                            = { guifg = M.colors.base03, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.TabLineFill                        = { guifg = M.colors.base03, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.TabLineSel                         = { guifg = M.colors.base0B, guibg = M.colors.base01, gui = 'none', guisp = nil }
+    hi.EndOfBuffer                        = { guifg = M.colors.base00, guibg = nil, M.colors.base00, gui = 'none', guisp = nil }
 
     -- Standard syntax highlighting
     hi.Boolean                            = { guifg = M.colors.base09, guibg = nil, gui = nil, guisp = nil }
