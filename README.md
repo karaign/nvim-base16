@@ -1,5 +1,8 @@
 # nvim-base16
 
+This fork includes some minor tweaks to appeal to me personally. It changes the statusline and the vertical split line to
+have matching colours.
+
 Neovim plugin for building base16 colorschemes with support for Neovim's
 builtin LSP and Treesitter.
 
