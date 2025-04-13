@@ -34,7 +34,7 @@ local HEX_DIGITS = {
 
 local function hex_to_rgb(hex)
     return HEX_DIGITS[string.sub(hex, 1, 1)] * 16 + HEX_DIGITS[string.sub(hex, 2, 2)],
-        HEX_DIGITS[string.sub(hex, 3, 3)] * 16 + HEX_DIGITS[st/ring.sub(hex, 4, 4)],
+        HEX_DIGITS[string.sub(hex, 3, 3)] * 16 + HEX_DIGITS[string.sub(hex, 4, 4)],
         HEX_DIGITS[string.sub(hex, 5, 5)] * 16 + HEX_DIGITS[string.sub(hex, 6, 6)]
 end
 
