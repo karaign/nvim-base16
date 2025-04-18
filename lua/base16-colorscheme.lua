@@ -431,6 +431,9 @@ function M.setup(colors, config)
     hi.TermCursor        = { guifg = M.colors.base00, guibg = M.colors.base05, gui = 'none', guisp = nil }
     hi.TermCursorNC      = { guifg = M.colors.base00, guibg = M.colors.base05, gui = nil, guisp = nil }
 
+    -- Nicer window separators
+    hi.WinSeparator      = { guifg = M.colors.base01, guibg = nil, gui = nil, guisp = nil }
+
     hi.User1             = { guifg = M.colors.base08, guibg = M.colors.base02, gui = 'none', guisp = nil }
     hi.User2             = { guifg = M.colors.base0E, guibg = M.colors.base02, gui = 'none', guisp = nil }
     hi.User3             = { guifg = M.colors.base05, guibg = M.colors.base02, gui = 'none', guisp = nil }
